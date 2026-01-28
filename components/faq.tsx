@@ -4,7 +4,7 @@ export function FAQ({
   items,
   className
 }: {
-  items: Array<{ q: string; a: string }>;
+  items: ReadonlyArray<{ q: string; a: string }>;
   className?: string;
 }) {
   return (
